@@ -14,9 +14,11 @@ To optimize performance for the Gen9OU battle environment, we have made targeted
 
 The teams we used during the Gen1OU and Gen9OU tournaments are stored in the "teams" folder, and the models we used will be uploaded to BaiduDisk this weekend.
 
-Before the finals of Gen1OU, we only used the competition teams officially provided by Metamon, so they are not listed in the "teams" folder. During the Gen1OU finals, the team we mainly used was Gen1OU_Finals, and the backup team was not used in many rounds.
+Before the finals of Gen1OU, we only used the competition teams officially provided by Metamon, so they are not listed in the "teams" folder. During the Gen1OU finals, the teams we mainly used was Gen1OU_Finals, and the backup teams was not used in many rounds.
 
-During our matches against the Foul Play model in Gen9OU, we initially used the G9OU_Semifinals_Test team. However, we suffered quite a few losses with it, so we switched to the Ash team from G9OU_Semifinals_Major. This team originated from Player Ash during the tournament, and we attempted to reconstruct it based on the battle recordings. Overall, the Ash team achieved relatively good results. Meanwhile, we also tried a balance team, but its pace was rather slow and our model can't using rest and sleeptalk very well. On the whole, the Ash team was still more suitable for the behavioral habits of our model.
+During our matches against the Foul Play in Gen9OU, we initially used the G9OU_Semifinals_Test teams. However, we suffered quite a few losses, so we switched to the Ash team from G9OU_Semifinals_Major. This team originated from Player Ash during the tournament, and we attempted to reconstruct it based on the battle recordings. Overall, the Ash team achieved relatively good results. Meanwhile, we also tried a balance team, but its pace was rather slow and our model can't using rest and sleeptalk very well. On the whole, the Ash team was still more suitable for the behavioral habits of our model.
+
+==================================================================================================
 
 <div align="center">
     <img src="media/metamon_text_logo.png" alt="Metamon Text Logo" width="410">
