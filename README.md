@@ -1,10 +1,17 @@
-#PA - Agent method for NeurIPS2025 PokeAgent Competition
+**PA - Agent method for NeurIPS2025 PokeAgent Competition**
+
 This repository houses the source code of PA - Agent, the competitive team that achieved good results in the NeurIPS2025 PokeAgent Competition Battle Track:
+
 Champion in the Gen1OU division
+
 Ranked 3rd - 4th in the Gen9OU division
-Code Foundation & Modifications
+
+**Code Foundation & Modifications**
+
 The majority of the codebase is adapted from the [Metamon](https://github.com/UT-Austin-RPL/metamon) project, which serves as the core framework for our battle logic and agent implementation.
+
 To optimize performance for the Gen9OU battle environment, we have made targeted fine - tuning to the model architecture.
+
 The teams we used during the Gen1OU and Gen9OU tournaments are stored in the "teams" folder, and the models we used will be uploaded to Baidu Cloud Drive this weekend.
 
 
