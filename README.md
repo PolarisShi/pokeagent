@@ -18,6 +18,8 @@ Before the finals of Gen1OU, we only used the competition teams officially provi
 
 During our matches against the Foul Play in Gen9OU, we initially used the G9OU_Semifinals_Test teams. However, we suffered quite a few losses, so we switched to the Ash team from G9OU_Semifinals_Major. This team originated from Player Ash during the tournament, and we attempted to reconstruct it based on the battle recordings. Overall, the Ash team achieved relatively good results. Meanwhile, we also tried a balance team, but its pace was rather slow and our model can't using rest and sleeptalk very well. On the whole, the Ash team was still more suitable for the behavioral habits of our model.
 
+For the model training, we first use the official baseline model to generate battle data, which is then mixed with the real data provided by the official. Taking the G1OU model as an example: since the official provides 250,000 pieces of real battle data, during the first iteration, we adopted the SyntheticV2 model, conducted local battles with different teams, collected battle trajectories, and used them for the first round of model training. After the completion of the first round of model training, we conducted local battles based on the model weights of different epochs to collect new battle trajectories for training a new model, and so on. The G1OU model we used went through 6 rounds of iteration. It should be noted that in each round of iteration, we reduced the proportion of human battle data.
+
 ==================================================================================================
 
 <div align="center">
